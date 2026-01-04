@@ -124,7 +124,23 @@ header>.container {
 
 .filter {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    width: 1280px;
+    height: 41px;
+
+}
+
+.arrows {
+    display: flex;
+
+}
+
+.filters {
+    display: flex;
+    justify-content: flex-start;
+    width: 1280px;
+    height: 41px;
+
 }
 
 .card {
@@ -169,11 +185,24 @@ header>.container {
 }
 
 .normal-btn {
-    border: solid black 1px;
+    color: #929292;
+    width: 81px;
+    height: 41px;
+    border-radius: 20px;
+
+    border: solid #929292 1px;
 }
 
 .special-btn {
-    border: solid black 1px;
+    font-family: "DanaFaNum";
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    background-color: #132152;
+    border: solid #132152 1px;
+    width: 81px;
+    height: 41px;
+    border-radius: 20px;
 }
 
 .cardcontainer {
@@ -193,6 +222,11 @@ header>.container {
 
 }
 
+.arrows>button {
+    width: 34px;
+    height: 34px;
+    gap: 10px;
+}
 
 
 
